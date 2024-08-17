@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: None;
+    font-family: sans-serif;
+    border:border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo{
+    background-image: url(" amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+    
+}
+.border{
+    border: 2px solid transparent
+
+}
+
+.border:hover{
+    border: 2px solid white
+}
+
+
+.icon{
+    display:flex;
+    align-items: center;
+    
+}
+
+.loc1{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85 rem;
+}
+.loc22{
+    font-size: 1 rem;
+    margin-left: 5px;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.search{
+    display: flex;
+    background-color: skyblue;
+    width: 650px;
+    height: 35px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.options{
+    
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border:none
+}
+
+.bar{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: goldenrod;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.5rem;
+    color: #0f1111;
+}
+
+
+.sign-in{
+    margin-left: 10px;
+}
+.sign{
+    font-size: 12px;
+}
+
+.account{
+    font-size: 15px;
+    font-weight: 700
+}
+
+.return{
+    margin-left: 10px;
+}
+.s1{
+    font-size: 12px;
+}
+
+.s2{
+    font-size: 15px;
+    font-weight: 700
+}
+
+.search:hover{
+    border: 2px solid goldenrod;
+
+}
+
+.bar:focus{
+    color:  goldenrod;
+    border: 2px solid goldenrod;
+
+}
+
+.nav-cart{
+    display: flex;
+}
+.write{
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+
+.nav-cart i{
+    align-content: center;
+}
+
+.panel{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #0f1111;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.all{
+    width: 80%;
+}
+.all p{
+    display: inline;
+    margin-left: 15px ;
+}
+
+.all p a{
+    color: white;
+}
+
+.left{
+    display: flex;
+    align-content: flex-end;
+
+}
+
+
+.hero{
+    background-image: url("hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.msg{
+    background-color: rgba(250, 250, 250, 0.89);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 400px;
+    font-style: bold;
+    width: 94%;
+    margin-bottom: 30px;
+
+}
+
+.msg p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.msg a{
+    color: deepskyblue;
+}
+
+.shop{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+
+}
+
+.box{
+    border: 2px solid black;
+    background-color: aliceblue;
+    height: 400px;
+    width:23%;
+    padding: 20px 0px 15px;
+   
+    
+}
+
+.bx-img{
+    background-image: url("box1_image.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+.bx-img2{
+    background-image: url("cloths.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content2{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+.bx-img3{
+    background-image: url("smartphone.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content3{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+.bx-img4{
+    background-image: url("furniture.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content4{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+
+
+
+
+
+
+.shop2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    
+}   
+
+
+.bx-img5{
+    background-image: url("makeup.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content5{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+.bx-img6{
+    background-image: url("catsanddogs.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content6{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+.bx-img7{
+    background-image: url("child.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content7{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
+
+.bx-img8{
+    background-image: url("style.jpg");
+    height:330px;
+    background-size: cover;  
+
+}
+
+.content8{
+    margin-left:15px ;
+    margin-right:10px ;
+}
+
