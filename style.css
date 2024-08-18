@@ -29,6 +29,21 @@
     width:100%;
     
 }
+
+.lmsg{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+
 .border{
     border: 2px solid transparent
 
@@ -331,5 +346,150 @@
 .content8{
     margin-left:15px ;
     margin-right:10px ;
+}
+
+.lmsg{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.last-part{
+    background-color: #222f3d;
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.fir ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 10px;
+    
+    
+
+}
+
+.sec ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 10px;
+   
+
+}
+
+.thr ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 10px;
+    
+   
+
+}
+
+.four ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 10px;
+    
+
+}
+
+.final{
+    height: 70px;
+    background-color: #222f3d;
+    border-top: 0.25px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flogo{
+    background-image: url(" amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:100px;
+    
+}
+
+.language{
+    height: 25px;
+    width: 100px;
+    border: 0.5px solid grey;
+    color: white;
+    padding: 10px;
+    margin-left:5px ;
+}
+
+.bang{
+    padding:10px;
+    margin-left: 5px;
+    height: 25px;
+    width: 105px;
+    color: white;
+    border: 0.5px solid grey;
+    display: flex;
+}
+.bang i{
+   padding-right: 7px;
+}
+
+.final-final{
+    height: 220px;
+    width: 100%;
+    background-color: #131a22 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    
+   
+}
+
+.final-final li{
+    font-size:13px ;
+    list-style-type: none;
+    
+}
+
+
+.und:hover{
+    text-decoration: underline;
+}
+
+.confirm-final{
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm-final p{
+    padding-left: 15px;
+    font-size: 10px;
+}
+    
+.c{
+    color: white;
+    background-color: #131a22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c p{
+    font-size: 10px; 
 }
 
